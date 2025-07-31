@@ -9,7 +9,8 @@ import SwiftUI
 import SwiftData
 
 @main
-struct PDFScannerApp: App {
+struct PDFScannerApp: App { 
+    @StateObject private var storeManager = StoreManager()
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -26,6 +27,7 @@ struct PDFScannerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(storeManager)
         }
         .modelContainer(sharedModelContainer)
     }

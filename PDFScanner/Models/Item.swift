@@ -11,8 +11,10 @@ import SwiftData
 @Model
 final class Item {
     var timestamp: Date
+    var pdfData: Data?
     
-    init(timestamp: Date) {
+    init(timestamp: Date, pdfData: Data? = nil) {
         self.timestamp = timestamp
+        self.pdfData = pdfData
     }
 }
