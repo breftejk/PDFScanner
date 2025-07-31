@@ -1,0 +1,11 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M180 300 V180 H300" />
+  <path d="M724 180 H844 V300" />
+  <path d="M844 724 V844 H724" />
+  <path d="M300 844 H180 V724" />
+
+  <path d="M400 400 H624 V624 H400 Z" />
+  <path d="M624 400 L560 336 H400" />
+
+  <path d="M440 560 Q480 520 520 560 T600 560" />
+</svg>
